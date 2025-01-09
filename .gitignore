@@ -1,2 +1,4 @@
 .vscode/
 MyCredentials.json
+venv/
+.env
