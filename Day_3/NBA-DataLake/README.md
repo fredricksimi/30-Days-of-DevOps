@@ -10,9 +10,8 @@ This Python script fetches player data from SportsData API saves it to Google Cl
 ### Setting Up
 1. [Create a Google Cloud project](https://console.cloud.google.com) and enable the Google Cloud Storage API if not already enabled.
 2. [Create a Service Account](https://cloud.google.com/iam/docs/service-accounts-create) with Storage Admin and BigQuery User privileges and download the JSON key file 
-3. [Create a Google Cloud Storage bucket](https://cloud.google.com/storage?hl=en) where the weather data will be stored.
-4. Obtain an NBA API key from SportsData API Sign Up form ([Sign up](https://sportsdata.io/cart/free-trial)).
-5. Create a `.env` file in the same directory as your script with the following environment variables:
+3. Obtain an NBA API key from SportsData API Sign Up form ([Sign up](https://sportsdata.io/cart/free-trial)).
+4. Create a `.env` file in the same directory as your script with the following environment variables:
 
 ```
 GCP_STORAGE_BUCKET_NAME = <your_bucket_name>
