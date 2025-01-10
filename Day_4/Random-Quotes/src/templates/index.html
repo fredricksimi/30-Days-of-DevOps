@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Demo Random Quote</title>
+    <style>
+        .theroot{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="theroot">
+        <div class="container">
+            <h2><b>Random Quote Generator</b></h2>
+            <p>✍️ <b>Author</b>: {{quote.author}}</p>
+            <p>📃 <b>Quote</b>: {{quote.quote}}</p>
+        </div>
+    </div>
+</body>
+</html>
