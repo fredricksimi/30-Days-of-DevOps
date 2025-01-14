@@ -2,3 +2,8 @@
 MyCredentials.json
 venv/
 .env
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+MyCredentials.json:Zone.Identifier
