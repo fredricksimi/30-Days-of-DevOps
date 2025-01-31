@@ -7,3 +7,4 @@ venv/
 terraform.tfstate
 terraform.tfstate.backup
 *Zone.Identifier
+*__pycache__/
