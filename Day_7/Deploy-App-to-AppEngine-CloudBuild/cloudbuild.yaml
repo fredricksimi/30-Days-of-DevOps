@@ -1,0 +1,21 @@
+steps:
+  # Install dependencies
+  - name: 'python:3.10'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        pip install -r requirements.txt
+        echo "Dependencies installed."
+
+  # Run tests
+  - name: 'python:3.10'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        python -m unittest test_main.py
+        echo "All tests completed"
+
+images:
+  - 'gcr.io/<PROJECT_ID>/Deploy-App-to-AppEngine-CloudBuild'
