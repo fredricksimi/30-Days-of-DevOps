@@ -1,6 +1,6 @@
 ## Day 8 - Deploying a Python Movie API to Google Cloud Run using Bash Scripting, Docker, Artifact Registry and API Gateway
 
-### For Deployment process, read more about it on [my article](https://fredricksimi.hashnode.dev/day-7-deploying-a-python-application-to-app-engine-using-google-cloud-build-cicd) after setting up the project locally with the steps below.
+### For Deployment process, read more about it on [my article](https://fredricksimi.hashnode.dev/day-8-deploying-a-python-movie-api-to-google-cloud-run-using-bash-scripting-docker-artifact-registry-and-api-gateway) after setting up the project locally with the steps below.
 
 ### Prerequisites
 1. Python 3.x
